@@ -1,0 +1,71 @@
+climb_id,climb_name,stage_id,length,steepness,top,km_before_finnish
+1,Côte de Laukiz,1,2.1,6.8,220,168
+2,Côte de San Juan de Gaztelugatxe,1,3.6,7.9,297,114
+3,Col de Morga,1,3.8,4.9,324,41
+4,Côte de Vivero,1,4.3,7.0,355,27
+5,Côte de Pike,1,2.0,9.8,210,10
+6,Col d'Udana,2,4.5,4.9,512,128
+7,Côte d'Aztiria,2,2.7,6.0,594,121
+8,Côte d'Alkiza,2,4.2,5.9,327,68
+9,Côte de Gurutze,2,2.5,4.9,153,34
+10,Jaizkibel,2,8.1,5.3,452,16
+11,Côte de Trabakua,3,4.2,5.7,386,180
+12,Côte de Milloi,3,2.2,4.9,161,161
+13,Col d'Itziar,3,5.1,4.1,215,123
+14,Côte d'Orioko Benta,3,4.6,6.7,313,92
+15,Côte de Dému,4,2.1,3.2,217,27
+16,Col de Soudet,5,15.2,7.0,1518,75
+17,Col d'Ichère,5,4.2,6.2,675,38
+18,Col de Marie Blanque,5,7.8,8.5,1031,18
+19,Côte de Capvern-les-Bains,6,5.7,4.7,596,115
+20,Col d'Aspin,6,12.0,6.6,1485,77
+21,Col du Tourmalet,6,17.0,7.4,2112,47
+22,Cauterets-Cambrasque,6,16.2,5.3,1353,0
+23,Côte de Béguey,7,1.2,4.3,80,39
+24,Côte de Champs-Romain,8,2.8,5.0,301,70
+25,Côte de Masmont,8,1.3,5.3,345,16
+26,Côte de Condat-sur-Vienne,8,1.2,5.3,282,10
+27,Côte de Felletin,9,2.3,4.8,650,108
+28,Côte de Pontcharraud,9,2.0,4.5,683,97
+29,Côte de Pontaumur,9,3.9,4.9,723,56
+30,Puy de Dôme,9,12.6,7.8,1410,0
+31,Col de la Moréno,10,4.8,4.9,1061,160
+32,Col de Guéry,10,7.9,4.8,1262,140
+33,Col de la Croix Saint-Robert,10,6.0,6.4,1445,101
+34,Côte de Saint-Victor-la-Rivière,10,3.0,6.0,1025,83
+35,Côte de la Chapelle-Marcousse,10,6.6,5.5,968,29
+36,Côte de Chaptuzat-Haut,11,1.9,4.9,476,148
+37,Côte du Mercurol,11,2.9,4.4,446,130
+38,Côte de la Croix Blanche,11,1.7,5.1,285,61
+39,Côte de Thizy-les-Bourgs,12,4.4,5.6,629,148
+40,Col des Écorbans,12,2.0,5.8,824,131
+41,Col de la Casse Froide,12,5.2,6.0,740,59
+42,Col de la Croix Montmain,12,5.5,6.2,735,44
+43,Col de la Croix Rosier,12,5.4,7.7,721,28
+44,Grand Colombier,13,17.8,7.0,1494,0
+45,Col de Saxel,14,4.4,4.6,941,133
+46,Col de Cou,14,7.1,7.4,1113,117
+47,Col du Feu,14,5.9,7.7,1118,99
+48,Col de la Ramaz,14,13.9,6.9,1612,50
+49,Col de Joux Plane,14,11.7,8.5,1690,12
+50,Col de la Forclaz de Montmin,15,7.2,7.3,1149,96
+51,Col de la Croix Fry,15,11.4,7.1,1463,54
+52,Col des Aravis,15,4.4,6.2,1483,46
+53,Côte des Amerands,15,2.7,10.1,861,8
+54,Saint-Gervais Mont-Blanc,15,7.7,7.0,1379,0
+55,Côte de Domancy,16,2.8,8.4,793,4
+56,Col des Saisies,17,13.5,5.2,1643,137
+57,Cormet de Roselend,17,19.8,6.1,1971,99
+58,Côte de Longefoy,17,6.7,7.5,1164,60
+59,Col de la Loze,17,28.3,6.0,2300,7
+60,Côte de Chambéry-le-Haut,18,1.6,4.3,345,123
+61,Côte de Boissieu,18,2.6,4.8,354,80
+62,Côte du Bois de Lionge,19,1.9,5.7,694,149
+63,Côte d'Ivory,19,2.3,6.1,595,28
+64,Ballon d'Alsace,20,11.5,5.3,1172,110
+65,Col de la Croix des Moinats,20,5.2,7.0,882,77
+66,Col de Grosse Pierre,20,3.2,7.9,937,69
+67,Col de la Schlucht ,20,4.2,5.0,1136,54
+68,Petit Ballon,20,9.3,8.1,1157,25
+69,Col du Platzerwasel,20,7.1,8.3,1179,8
+70,Côte du Pavé des Gardes,21,1.3,5.9,172,72
