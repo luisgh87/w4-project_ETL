@@ -1,0 +1,6 @@
+climb_name,climb_url_x,stage_id,climb_url_y,length,steepness,top,km_before_finnish
+Col d'Udana,location/puerto-de-udana,2,location/puerto-de-udana,4.5,4.9,512,128
+Côte d'Aztiria,location/alto-de-aztiria,2,location/alto-de-aztiria,2.7,6.0,594,121
+Côte d'Alkiza,location/alkiza,2,location/alkiza,4.2,5.9,327,68
+Côte de Gurutze,location/gurutze,2,location/gurutze,2.5,4.9,153,34
+Jaizkibel,location/alto-de-jaizkibel,2,location/alto-de-jaizkibel,8.1,5.3,452,16

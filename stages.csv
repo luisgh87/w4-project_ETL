@@ -1,22 +1,22 @@
-stages, length,winner,leader
-0, Bilbao - Bilbao,182,"Yates,Adam","Yates,Adam"
-1, Vitoria-Gasteiz - Donostia,208,"Lafay,Victor","Yates,Adam"
-2, Amorebieta - Bayonne,193,"Philipsen,Jasper","Yates,Adam"
-3, Dax - Nogaro,181,"Philipsen,Jasper","Yates,Adam"
-4, Pau - Laruns,162,"Hindley,Jai","Hindley,Jai"
-5, Tarbes - Cauterets,144,"Pogačar,Tadej","Vingegaard,Jonas"
-6, Mont-de-Marsan - Bordeaux,169,"Philipsen,Jasper","Vingegaard,Jonas"
-7, Libourne - Limoges,200,"Pedersen,Mads","Vingegaard,Jonas"
-8, Saint-Léonard-de-Noblat - Puy de,182,"Woods,Michael","Vingegaard,Jonas"
-9, Vulcania - Issoire,167,"Bilbao,Pello","Vingegaard,Jonas"
-10, Clermont-Ferrand - Moulins,179,"Philipsen,Jasper","Vingegaard,Jonas"
-11, Roanne - Belleville-en-Beaujolais,168,"Izagirre,Ion","Vingegaard,Jonas"
-12, Châtillon-sur-Chalaronne - Grand,137,"Kwiatkowski,Michal","Vingegaard,Jonas"
-13, Annemasse - Morzine,151,"Rodríguez,Carlos","Vingegaard,Jonas"
-14, Les Gets - Saint-Gervais-Mont-Bl,179,"Poels,Wout","Vingegaard,Jonas"
-15, Passy - Combloux,22,"Vingegaard,Jonas","Vingegaard,Jonas"
-16, Saint-Gervais-Mont-Blanc - Courc,165,"Gall,Felix","Vingegaard,Jonas"
-17, Moûtiers - Bourg-en-Bresse,184,"Asgreen,Kasper","Vingegaard,Jonas"
-18, Moirans-en-Montagne - Poligny,172,"Mohorič,Matej","Vingegaard,Jonas"
-19, Belfort - Le Markstein,133,"Pogačar,Tadej","Vingegaard,Jonas"
-20, Saint-Quentin-en-Yvelines - Paris,115,"Meeus,Jordi","Vingegaard,Jonas"
+,stages, length,winner,leader,stage_id
+0, Bilbao - Bilbao,182,"Yates,Adam","Yates,Adam",1
+1, Vitoria-Gasteiz - Donostia,208,"Lafay,Victor","Yates,Adam",2
+2, Amorebieta - Bayonne,193,"Philipsen,Jasper","Yates,Adam",3
+3, Dax - Nogaro,181,"Philipsen,Jasper","Yates,Adam",4
+4, Pau - Laruns,162,"Hindley,Jai","Hindley,Jai",5
+5, Tarbes - Cauterets,144,"Pogačar,Tadej","Vingegaard,Jonas",6
+6, Mont-de-Marsan - Bordeaux,169,"Philipsen,Jasper","Vingegaard,Jonas",7
+7, Libourne - Limoges,200,"Pedersen,Mads","Vingegaard,Jonas",8
+8, Saint-Léonard-de-Noblat - Puy de,182,"Woods,Michael","Vingegaard,Jonas",9
+9, Vulcania - Issoire,167,"Bilbao,Pello","Vingegaard,Jonas",10
+10, Clermont-Ferrand - Moulins,179,"Philipsen,Jasper","Vingegaard,Jonas",11
+11, Roanne - Belleville-en-Beaujolais,168,"Izagirre,Ion","Vingegaard,Jonas",12
+12, Châtillon-sur-Chalaronne - Grand,137,"Kwiatkowski,Michal","Vingegaard,Jonas",13
+13, Annemasse - Morzine,151,"Rodríguez,Carlos","Vingegaard,Jonas",14
+14, Les Gets - Saint-Gervais-Mont-Bl,179,"Poels,Wout","Vingegaard,Jonas",15
+15, Passy - Combloux,22,"Vingegaard,Jonas","Vingegaard,Jonas",16
+16, Saint-Gervais-Mont-Blanc - Courc,165,"Gall,Felix","Vingegaard,Jonas",17
+17, Moûtiers - Bourg-en-Bresse,184,"Asgreen,Kasper","Vingegaard,Jonas",18
+18, Moirans-en-Montagne - Poligny,172,"Mohorič,Matej","Vingegaard,Jonas",19
+19, Belfort - Le Markstein,133,"Pogačar,Tadej","Vingegaard,Jonas",20
+20, Saint-Quentin-en-Yvelines - Paris,115,"Meeus,Jordi","Vingegaard,Jonas",21

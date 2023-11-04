@@ -1,0 +1,6 @@
+climb_name,climb_url_x,stage_id,climb_url_y,length,steepness,top,km_before_finnish
+Côte de Laukiz,location/cote-de-laukiz,1,location/cote-de-laukiz,2.1,6.8,220,168
+Côte de San Juan de Gaztelugatxe,location/alto-de-san-juan-de-gaztelugatxe,1,location/alto-de-san-juan-de-gaztelugatxe,3.6,7.9,297,114
+Col de Morga,location/alto-de-morga,1,location/alto-de-morga,3.8,4.9,324,41
+Côte de Vivero,location/alto-el-vivero,1,location/alto-el-vivero,4.3,7.0,355,27
+Côte de Pike,location/alto-pike,1,location/alto-pike,2.0,9.8,210,10
