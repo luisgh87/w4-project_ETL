@@ -1,0 +1,71 @@
+climb_name,climb_url,length,steepness,top,km_before_finnish
+Col de la Loze,location/col-de-la-loze,28.3,6.0,2300,7
+Cormet de Roselend,location/cormet-de-roselend,19.8,6.1,1971,99
+Grand Colombier,location/col-du-grand-colombier,17.8,7.0,1494,0
+Col du Tourmalet,location/col-du-tourmalet,17.0,7.4,2112,47
+Cauterets-Cambrasque,location/cauterets-cambasque,16.2,5.3,1353,0
+Col de Soudet,location/col-de-soudet,15.2,7.0,1518,75
+Col de la Ramaz,location/col-de-la-ramaz,13.9,6.9,1612,50
+Col des Saisies,location/col-des-saisies,13.5,5.2,1643,137
+Puy de Dôme,location/puy-de-dome,12.6,7.8,1410,0
+Col d'Aspin,location/col-d-aspin,12.0,6.6,1485,77
+Col de Joux Plane,location/col-de-joux-plane,11.7,8.5,1690,12
+Ballon d'Alsace,location/ballon-d-alsace,11.5,5.3,1172,110
+Col de la Croix Fry,location/col-de-la-croix-fry,11.4,7.1,1463,54
+Petit Ballon,location/petit-ballon,9.3,8.1,1157,25
+Jaizkibel,location/alto-de-jaizkibel,8.1,5.3,452,16
+Col de Guéry,location/col-de-guery,7.9,4.8,1262,140
+Col de Marie Blanque,location/col-du-marie-blanque,7.8,8.5,1031,18
+Saint-Gervais Mont-Blanc,location/saint-gervais-mont-blanc,7.7,7.0,1379,0
+Col de la Forclaz de Montmin,location/col-de-la-forclaz-montmin,7.2,7.3,1149,96
+Col du Platzerwasel,location/col-du-platzerwasel,7.1,8.3,1179,8
+Col de Cou,location/col-de-cou,7.1,7.4,1113,117
+Côte de Longefoy,location/cote-de-longefoy,6.7,7.5,1164,60
+Côte de la Chapelle-Marcousse,location/cote-de-la-chapelle-marcousse,6.6,5.5,968,29
+Col de la Croix Saint-Robert,location/col-de-la-croix-saint-robert,6.0,6.4,1445,101
+Col du Feu,location/col-du-feu,5.9,7.7,1118,99
+Côte de Capvern-les-Bains,location/cote-de-capvern-les-bains,5.7,4.7,596,115
+Col de la Croix Montmain,location/col-de-la-croix-montmain,5.5,6.2,735,44
+Col de la Croix Rosier,location/col-de-la-croix-rosier,5.4,7.7,721,28
+Col de la Casse Froide,location/col-de-la-casse-froide,5.2,6.0,740,59
+Col de la Croix des Moinats,location/col-de-la-croix-des-moinats,5.2,7.0,882,77
+Col d'Itziar,location/alto-de-itziar,5.1,4.1,215,123
+Col de la Moréno,location/col-de-la-moreno,4.8,4.9,1061,160
+Côte d'Orioko Benta,location/alto-orioko-benta,4.6,6.7,313,92
+Col d'Udana,location/puerto-de-udana,4.5,4.9,512,128
+Col de Saxel,location/col-de-saxel,4.4,4.6,941,133
+Côte de Thizy-les-Bourgs,location/cote-de-thizy-les-bourgs,4.4,5.6,629,148
+Col des Aravis,location/col-des-aravis,4.4,6.2,1483,46
+Côte de Vivero,location/alto-el-vivero,4.3,7.0,355,27
+Côte d'Alkiza,location/alkiza,4.2,5.9,327,68
+Côte de Trabakua,location/trabakua,4.2,5.7,386,180
+Col de la Schlucht ,location/col-de-la-schlucht,4.2,5.0,1136,54
+Col d'Ichère,location/col-d-ichere,4.2,6.2,675,38
+Côte de Pontaumur,location/cote-de-pontaumur,3.9,4.9,723,56
+Col de Morga,location/alto-de-morga,3.8,4.9,324,41
+Côte de San Juan de Gaztelugatxe,location/alto-de-san-juan-de-gaztelugatxe,3.6,7.9,297,114
+Col de Grosse Pierre,location/col-de-grosse-pierre,3.2,7.9,937,69
+Côte de Saint-Victor-la-Rivière,location/cote-de-saint-victor-la-riviere,3.0,6.0,1025,83
+Côte du Mercurol,location/cote-du-mercurol,2.9,4.4,446,130
+Côte de Domancy,location/cote-de-domancy,2.8,8.4,793,4
+Côte de Champs-Romain,location/cote-de-champs-romain,2.8,5.0,301,70
+Côte des Amerands,location/cote-des-amerands,2.7,10.1,861,8
+Côte d'Aztiria,location/alto-de-aztiria,2.7,6.0,594,121
+Côte de Boissieu,location/cote-de-boissieu,2.6,4.8,354,80
+Côte de Gurutze,location/gurutze,2.5,4.9,153,34
+Côte de Felletin,location/cote-de-felletin,2.3,4.8,650,108
+Côte d'Ivory,location/cote-d-ivory,2.3,6.1,595,28
+Côte de Milloi,location/milloi,2.2,4.9,161,161
+Côte de Laukiz,location/cote-de-laukiz,2.1,6.8,220,168
+Côte de Dému,location/cote-de-demu,2.1,3.2,217,27
+Côte de Pontcharraud,location/cote-de-pontcharraud,2.0,4.5,683,97
+Col des Écorbans,location/col-des-ecorbans,2.0,5.8,824,131
+Côte de Pike,location/alto-pike,2.0,9.8,210,10
+Côte de Chaptuzat-Haut,location/cote-de-chaptuzat-haut,1.9,4.9,476,148
+Côte du Bois de Lionge,location/cote-du-bois-de-lionge,1.9,5.7,694,149
+Côte de la Croix Blanche,location/cote-de-la-croix-blanche-puy-de-dome,1.7,5.1,285,61
+Côte de Chambéry-le-Haut,location/cote-de-chambery-le-haut,1.6,4.3,345,123
+Côte de Masmont,location/cote-de-masmont,1.3,5.3,345,16
+Côte du Pavé des Gardes,location/cote-du-pave-des-gardes,1.3,5.9,172,72
+Côte de Condat-sur-Vienne,location/cote-de-condat-sur-vienne,1.2,5.3,282,10
+Côte de Béguey,location/cote-de-beguey,1.2,4.3,80,39
