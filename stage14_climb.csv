@@ -1,0 +1,6 @@
+climb_name,climb_url_x,stage_id,climb_url_y,length,steepness,top,km_before_finnish
+Col de Saxel,location/col-de-saxel,14,location/col-de-saxel,4.4,4.6,941,133
+Col de Cou,location/col-de-cou,14,location/col-de-cou,7.1,7.4,1113,117
+Col du Feu,location/col-du-feu,14,location/col-du-feu,5.9,7.7,1118,99
+Col de la Ramaz,location/col-de-la-ramaz,14,location/col-de-la-ramaz,13.9,6.9,1612,50
+Col de Joux Plane,location/col-de-joux-plane,14,location/col-de-joux-plane,11.7,8.5,1690,12
