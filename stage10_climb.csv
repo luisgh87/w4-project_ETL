@@ -1,0 +1,6 @@
+climb_name,climb_url_x,stage_id,climb_url_y,length,steepness,top,km_before_finnish
+Col de la Moréno,location/col-de-la-moreno,10,location/col-de-la-moreno,4.8,4.9,1061,160
+Col de Guéry,location/col-de-guery,10,location/col-de-guery,7.9,4.8,1262,140
+Col de la Croix Saint-Robert,location/col-de-la-croix-saint-robert,10,location/col-de-la-croix-saint-robert,6.0,6.4,1445,101
+Côte de Saint-Victor-la-Rivière,location/cote-de-saint-victor-la-riviere,10,location/cote-de-saint-victor-la-riviere,3.0,6.0,1025,83
+Côte de la Chapelle-Marcousse,location/cote-de-la-chapelle-marcousse,10,location/cote-de-la-chapelle-marcousse,6.6,5.5,968,29
