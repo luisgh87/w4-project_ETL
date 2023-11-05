@@ -1,35 +1,35 @@
-,etapa,dorsal,corredor,equipo
-1,1,131,MAS Enric,MOVISTAR
-2,2,41,CARAPAZ Richard,EF
-3,3,
-4,4,
-5,5,87,GUARNIERI Jacopo,LOTTO
-6,5,197,SANCHEZ Luis Leon,
-7,6,
-8,7,
-9,8,191,CAVENDISH Mark,ASTANA
-10,8,214,CRAS Steff,TOTALENERGIES
-11,9,87,SIMMONS Quinn,LIDL
-12,10,
-13,11,
-14,12,56,JAKOBSEN Fabio,SOUDAL
-15,13,193,DE LA CRUZ David,
-16,13,28,TURNER Ben,INEOS
-17,13,181,EWAN Caleb,LOTTO
-18,14,44,CHAVES Jhoan Esteban
-19,14,47,SHAW James,EF
-20,14,108,SINKELDAM Ramon,ALPECIN-DECEUNINCK
-21,14,114,MEINTJES Louis,INTERMARCHÉ
-22,14,132,ALMEIDA GUERREIRO Ruben,
-23,14,138,PEDRERO Antonio,MOVISTAR
-24,14,141,BARDET Romain,TEAM
-25,15,25,MARTINEZ POVEDA Daniel
-26,16,135,JORGENSON Matteo,MOVISTAR
-27,17,64,BAUHAUS Phil,BAHRAIN
-28,17,127,RENARD Alexis,COFIDIS
-29,18,6,VAN AERT Wout,
-30,18,123,GESCHKE Simon,COFIDIS
-31,18,126,PEREZ Anthony,COFIDIS
-32,19,
-33,20,125,LAFAY Victor,COFIDIS
-34,21,
+,withdrawal_id,stage_id,rider_name,team_name
+0,1,1,mas_enric,movistar_team
+1,2,2,carapaz_richard,ef_education_easypost
+2,3,3,no_withdrawal,no_withdrawal
+3,4,4,no_withdrawal,no_withdrawal
+4,5,5,guarnieri_jacopo,lotto_dstny
+5,6,5,sanchez_luis_leon,astana_qazaqstan_team
+6,7,6,no_withdrawal,no_withdrawal
+7,8,7,no_withdrawal,no_withdrawal
+8,9,8,cavendish_mark,astana_qazaqstan_team
+9,10,8,cras_steff,totalenergies
+10,11,9,simmons_quinn,lidl_trek
+11,12,10,no_withdrawal,no_withdrawal
+12,13,11,no_withdrawal,no_withdrawal
+13,14,12,jakobsen_fabio,soudal_quick_step
+14,15,13,de_la_cruz_david,astana_qazaqstan_team
+15,16,13,turner_ben,ineos_grenadiers
+16,17,13,ewan_caleb,lotto_dstny
+17,18,14,chaves_esteban,ef_education_easypost
+18,19,14,shaw_james,ef_education_easypost
+19,20,14,sinkeldam_ramon,alpecin-deceuninck
+20,21,14,meintjes_louis,intermarché_circus_wanty
+21,22,14,guerreiro_ruben,movistar_team
+22,23,14,pedrero_antonio,movistar_team
+23,24,14,bardet_romain,team_dsm_firmenich
+24,25,15,martínez_daniel_felipe,ineos_grenadiers
+25,26,16,jorgenson_matteo,movistar_team
+26,27,17,bauhaus_phil,bahrain_victorious
+27,28,17,renard_alexis,cofidis
+28,29,18,van_aert_wout,jumbo_visma
+29,30,18,geschke_simon,cofidis
+30,31,18,perez_anthony,cofidis
+31,32,19,no_withdrawal,no_withdrawal
+32,33,20,lafay_victor,cofidis
+33,34,21,no_withdrawal,no_withdrawal
