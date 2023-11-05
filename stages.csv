@@ -1,22 +1,22 @@
-,stages, length,winner,leader,stage_id
-0, Bilbao - Bilbao,182,"Yates,Adam","Yates,Adam",1
-1, Vitoria-Gasteiz - Donostia,208,"Lafay,Victor","Yates,Adam",2
-2, Amorebieta - Bayonne,193,"Philipsen,Jasper","Yates,Adam",3
-3, Dax - Nogaro,181,"Philipsen,Jasper","Yates,Adam",4
-4, Pau - Laruns,162,"Hindley,Jai","Hindley,Jai",5
-5, Tarbes - Cauterets,144,"Pogačar,Tadej","Vingegaard,Jonas",6
-6, Mont-de-Marsan - Bordeaux,169,"Philipsen,Jasper","Vingegaard,Jonas",7
-7, Libourne - Limoges,200,"Pedersen,Mads","Vingegaard,Jonas",8
-8, Saint-Léonard-de-Noblat - Puy de,182,"Woods,Michael","Vingegaard,Jonas",9
-9, Vulcania - Issoire,167,"Bilbao,Pello","Vingegaard,Jonas",10
-10, Clermont-Ferrand - Moulins,179,"Philipsen,Jasper","Vingegaard,Jonas",11
-11, Roanne - Belleville-en-Beaujolais,168,"Izagirre,Ion","Vingegaard,Jonas",12
-12, Châtillon-sur-Chalaronne - Grand,137,"Kwiatkowski,Michal","Vingegaard,Jonas",13
-13, Annemasse - Morzine,151,"Rodríguez,Carlos","Vingegaard,Jonas",14
-14, Les Gets - Saint-Gervais-Mont-Bl,179,"Poels,Wout","Vingegaard,Jonas",15
-15, Passy - Combloux,22,"Vingegaard,Jonas","Vingegaard,Jonas",16
-16, Saint-Gervais-Mont-Blanc - Courc,165,"Gall,Felix","Vingegaard,Jonas",17
-17, Moûtiers - Bourg-en-Bresse,184,"Asgreen,Kasper","Vingegaard,Jonas",18
-18, Moirans-en-Montagne - Poligny,172,"Mohorič,Matej","Vingegaard,Jonas",19
-19, Belfort - Le Markstein,133,"Pogačar,Tadej","Vingegaard,Jonas",20
-20, Saint-Quentin-en-Yvelines - Paris,115,"Meeus,Jordi","Vingegaard,Jonas",21
+stage_id,stage,length,winner,leader
+1,bilbao - bilbao,182,yates_adam,yates_adam
+2,vitoria-gasteiz - donostia,208,lafay_victor,yates_adam
+3,amorebieta - bayonne,193,philipsen_jasper,yates_adam
+4,dax - nogaro,181,philipsen_jasper,yates_adam
+5,pau - laruns,162,hindley_jai,hindley_jai
+6,tarbes - cauterets,144,pogačar_tadej,vingegaard_jonas
+7,mont-de-marsan - bordeaux,169,philipsen_jasper,vingegaard_jonas
+8,libourne - limoges,200,pedersen_mads,vingegaard_jonas
+9,saint-léonard-de-noblat - puy de,182,woods_michael,vingegaard_jonas
+10,vulcania - issoire,167,bilbao_pello,vingegaard_jonas
+11,clermont-ferrand - moulins,179,philipsen_jasper,vingegaard_jonas
+12,roanne - belleville-en-beaujolais,168,izagirre_ion,vingegaard_jonas
+13,châtillon-sur-chalaronne - grand,137,kwiatkowski_michal,vingegaard_jonas
+14,annemasse - morzine,151,rodríguez_carlos,vingegaard_jonas
+15,les gets - saint-gervais-mont-bl,179,poels_wout,vingegaard_jonas
+16,passy - combloux,22,vingegaard_jonas,vingegaard_jonas
+17,saint-gervais-mont-blanc - courc,165,gall_felix,vingegaard_jonas
+18,moûtiers - bourg-en-bresse,184,asgreen_kasper,vingegaard_jonas
+19,moirans-en-montagne - poligny,172,mohorič_matej,vingegaard_jonas
+20,belfort - le markstein,133,pogačar_tadej,vingegaard_jonas
+21,saint-quentin-en-yvelines - paris,115,meeus_jordi,vingegaard_jonas
