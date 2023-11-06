@@ -1,30 +1,29 @@
-# Project: ETL
+# La_Grande_Boucle_Project_3: 
 
-![portada](https://www.informatica.com/content/dam/informatica-com/en/images/misc/etl-process-explained-diagram.png)
-
-
-## Overview
-
-The goal of this project is for you to practice what you have learned so far on this program. For this project, you will start with a data set of your choice. You will need to import it, use your newly-acquired skills to clean and process the data. You should demonstrate your proficiency with the tools we covered (functions, classes, list comprehensions, string operations, pandas, and error handling, etc.) in your functions.
-
-**You will be working individually for this project**, but we'll be guiding you along the process and helping you as you go. Show us what you've got!
+![pirata](https://github.com/luisgh87/w4-project_ETL/assets/116723919/3a81efa0-b9fb-4215-a79d-5fb3e8be0cbb)
 
 
----
+## Objetivos
 
-## Technical Requirements
-
-The technical requirements for this project are as follows:
-
-* You must put your code wrapped in functions.
-* The following data pipeline stages should be covered: acquisition, wrangling, analysis, and reporting.
-* You must extract data from **3 different sources using 2 different tools**(Downloading a `.csv`,API, web scrapping...)
-* You must demonstrate all the topics we covered in the chapter (functions, list comprehensions, string operations, etc) in your processing of the data.
-* Your code should be saved in a Python executable file (.py), your data should be saved in a folder named data or src.
-* You should also include a README.md file that describes the steps you took and your thought process as you built your data pipeline.
+* Crear un database con datos extraídos de la Red con el sistema ETL.
+* Usar 3 fuentes diferentes de información y utiliar 2 técnicas de las aprendidas durante el bootcamp (Descatgar un `.csv`, API, web scrapping...).
+* Limpiar los datos almacenados mediante métodos de data cleansing.
+* Insertar la información en las tablas creadas en MySQL y establecer las relaciones entre dichas tablas para hacer el database funcional.
+* Analizar los datos recabados y sacar conclusiones.
 
 
-## TO DO's
+## Estructura:
+
+El repositorio se va a organizar en diferentes carpetas que contienen los siguientes archivos:
+
+* Data: Archivos .csv con los datos recolectados y su pertinente limpieza optimiyación para su uso.
+* Notebooks: Archivos .ipnyb en los que se usan diversas técnicas para la curación de dichos datos y la creación del database con Python.
+* Images: Archivos .png para la presentación del proyecto (queries, diagrama, gráficas).
+* SQL: Queries creadas para la demostración de la operatividad del database.
+* .Gitignore: Archivos que no se mostraran en el GitHub personal.
+
+
+## Proceso:
 
 - A) Find a dataset to start you work! A great place to start looking would be [Awesome Public Data Sets](https://github.com/awesomedata/awesome-public-datasets) and [Kaggle Data Sets](https://www.kaggle.com/datasets).
   
