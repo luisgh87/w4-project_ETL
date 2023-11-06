@@ -20,96 +20,33 @@ El repositorio se va a organizar en diferentes carpetas que contienen los siguie
 * Notebooks: Archivos .ipnyb en los que se usan diversas técnicas para la curación de dichos datos y la creación del database con Python.
 * Images: Archivos .png para la presentación del proyecto (queries, diagrama, gráficas).
 * SQL: Queries creadas para la demostración de la operatividad del database.
+* SRC: Funciones que se usan a lo largo del proyecto.
 * .Gitignore: Archivos que no se mostraran en el GitHub personal.
 
 
 ## Proceso:
 
-- A) Find a dataset to start you work! A great place to start looking would be [Awesome Public Data Sets](https://github.com/awesomedata/awesome-public-datasets) and [Kaggle Data Sets](https://www.kaggle.com/datasets).
+- A) Tomaremos como punto de partida la base de datos de Procyclingstats, creada de la web homónima a traves de su API, y que cuenta con su propia librería en Python. En ella se almacenan miles de datos acerca de la temporad profesional de ciclismo en carretera. De esta manera         haremos uso de nuestra primera fuente race/tour-de-france/2023/startlist y su respectivo método de extracción. Crearemos dos tablas para nuestro futuro database relacionado con el Tour de Francia 2023, las cuales serán:
+- 
+     - STARTLIST: Se recoge la información respectiva a la lista de participantes y se realizan sobre todo tareas de homogeneización del dato.
+     - STAGE_CLIMBS: A través de una función se almacenan los datos etapa por etapa iterando por su URL y se almacenan con el ID de la jornada a la que corresponden. 
+-  
+- B) Las otras dos tablas tomarán el contenido de dos fuentes distintas y se llevará a cabo con la herramienta Selenium y la técnica de web scrapping:
   
-- B) Clean and wrangle your dataset, prepare the data for your needs and intentions.
+     - STAGES: La web https://www.worldcyclingstats.com/es/carrera/tour-de-france nos ofrece el recorrido de las etapas y los ganadores y lider de la clasificación general en cada una de ellas
+     - WITHDRAWALS: En este caso iremos a la página oficial de la carrera https://www.letour.fr/es/abandono para encontrar los corredores que han abandonado en cada etapa.
+       
+- C) Una vez finalizadas las tareas de data cleansing, crearemos nuestro database con las estadísticas de la ronda francesa en MySQL y con ayuda de Python. Con el diagrama y lanyandoa algunas queries podremos comprobar la funcionalidad del sistema
+ 
+  - Diagrama
+  - <img width="503" alt="diagrama" src="https://github.com/luisgh87/w4-project_ETL/assets/116723919/f5e72758-e35d-4889-84e1-776d56fd0e22">
+  - Query 1: Nombre de la etapa el nombre de sus puertos de montaña y la distancia a la meta.
+  - <img width="329" alt="query 1" src="https://github.com/luisgh87/w4-project_ETL/assets/116723919/03d39048-a34b-413b-87b8-88cadff2a6f1">
+  - Query 2: Los 5 equipos que mas etapas han ganado.
+  - <img width="172" alt="query 2" src="https://github.com/luisgh87/w4-project_ETL/assets/116723919/0ff30480-cae2-41aa-8c9e-312e5ef7a6bf">
+  - Query 3: Las etapas que ha ganado cada corredor.
+  - <img width="238" alt="query 3" src="https://github.com/luisgh87/w4-project_ETL/assets/116723919/b3539b23-8b1e-4d0d-9424-96539bdc3c99">
 
-- C) Enrich the database with external data, you have to choose at least one of the following:
-  - Get data from an `API`.
-    - _Note:_ The API you use may require authentication via token or oAuth(remember to hide it in a .env file and include it in the `.gitignore`).
-  - Do web scraping with python `beautifulsoup` or `selenium`module.
-  
-- D) The data you bring in to enrich the dataset must be related to it and complement it! Figure out how it fits together and how you prepare the data of both sources for your report. Some suggestions on how you could achieve this:
-  - You have a dataset. Now you can use an API using the data of a column and create a new one with valuable info of your response for each row.
-  - Scrapping a website and creating a new dataset. Then linking both datasets somehow. Maybe in the visualization.
-  - Merging two datasets is complicated: you would need at least the same column with the same data in both. Don't overthink this stage. You can establish the relationship of both sources of data through visualization. 
-  
-- E) Create some reports containing valuable data from the dataset + enrichment. Some of the things you may do are:
-  - Simply sumarize the data and do some basic statistics \(`mean`, `max`, `min`, `std`, etc.).
-  - Do domain based statistics or data aggregations using `groupby()` .
-
-  - Go nuts with the investigation. 
-
-- F) The finished **report** must be a **very pretty** jupyter notebook, with text, clean code, meaningful outputs... Try telling a story with your data, that is, conduct us (the readers) through your findings and lead us into your conclusions.
-  - _Note:_ The report jupyter **must** be separate from the code for cleaning, acquiring, processing data, etc. These may be in other jupyters or in `.py` modules. _Be not afraid to modulate 🎶_
-
-## Summing up
-
-You will be working with both jupyter notebooks and python scripts. The goals of this project are:
-
-1. To **enrich** a given dataset, either using API's or web-scrapping
-
-For this first goal, you can either make calls on your cleaned dataset and add new columns to it, or you can do web-scrapping to generate a new dataset. Then, you'll have to plot graphs that show the relation between the data within the dataset (downloaded and enriched with API calls) or between the two datasets (the downloaded and the scrapped).
-
-2. To create **executable** python files. 
-
-E.g.: you tested your cleaning functions on your jupyter notebook. Now that they work, you take them to your `cleaning.py` file. Remember that you'll have to call those functions as well for them to be executed:
-
-```python
-def sum(a, b) #defining
-  return a+b
-
-sum(3, 4) #calling
-```
-
-You should be able to run:
-
-```bash
-python3 cleaning.py
-```
-on your terminal so that it'll prompt you to enter a dataset to download. Then the code within your file will **download** it, **clean** it and **export** it.
-
-After that's done, the rest of your code: enrichment and visualization can be told on jupyter notebooks.
-
-So, basically, your repo structure should look something like:
-
-```bash
-1-src(folder containing downloading-and-cleaning.py #executable)
-2-enriching-and-cleaning.ipynb
-3-visualizing.ipynb
-```
-However, even though the executable file will only be the `cleaning.py`, that doesn't mean that there are no more `files.py`. All of the functions that you use for enriching the datset (api calls, web-scrapping, cleaning the second dataset, etc) should also be stored in another `file.py`. Eg.:
-
-```bash
-4-api.py #not necessarily executable but can be
-5-scrapping.py
-6-other-functions-you-can-think-of.py
-```
-
-## Super Ultra Mega Blaster Tips
-
-* **Choose the data sources ASAP** and try to **stick to the plan**. Don't switch datasets/API's/webs halfway. 
-
-* **Examine the data**.
-
-* **Break the project down into different steps** - A hundred simple tasks are` better than a single complicated one
-
-* **Use the tools in your tool kit** - your knowledge of intermediate Python as well as some of the things you've learned in the bootcamp. This is a great way to start tying everything you've learned together!
-
-* **Work through the lessons in class** & ask questions when you need to! 
-
-* Think about adding relevant code to your project each day, instead of, you know... _procrastinating_.
-
-* **Commit early, commit often**, don’t be afraid of doing something incorrectly because you can always roll back to a previous version. Name your commits well.
-
-* **Consult documentation and resources provided** to better understand the tools you are using and how to accomplish what you want. GIYF.
-
-* **Have fun! Never give up! Be proud of your work!**
 
 ## Useful Resources
 
