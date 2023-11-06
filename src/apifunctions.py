@@ -1,18 +1,19 @@
-#En este archivo pondré todas mis funciones de extracción de datos de la API.
+#FUNCION PARA OBTENER DATOS DE LA API DE PROCYCLINGSTATS
 
-# Recuerda: Todas las funciones deben tener un docstring(documentación entre triples comillas que nos cuenta lo que hace la función)
+def getStages(maxEtapa):
+    stage_climbs=[]
+    for stages in range(1,maxEtapa+1):    
+        stage = Stage("race/tour-de-france/2023/stage-{}".format(stages))
+        climbs = stage.climbs()
+        for x in climbs:
+            x["stage_id"] = stages
+        stage_climbs.append(climbs)
 
-#Importo las librerías necesarias para las funciones del archivo
+    # Convertir la lista anidada en una lista plana de diccionarios
+    flat_data = [item for sublist in stage_climbs for item in sublist]
 
-#import hacercosas
+    # Crear un DataFrame a partir de la lista de diccionarios
+    stages = pd.DataFrame(flat_data)
 
-
-
-#Escribo mis funciones
-#def datitos_a_mi (atr1,atr2):
-    #'''Esta función recibe dos atributos hace cosas'''
-    #return atr1.hacercosas(atr2)
-
-def suma_dos_numeros(num1,num2):
-    '''Esta función recibe dos números y devuelve la suma de ambos'''
-    return num1+num2
+    # Mostrar el DataFrame
+    return stages
