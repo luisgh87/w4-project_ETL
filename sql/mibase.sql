@@ -15,7 +15,7 @@ GROUP BY team_name
 ORDER BY COUNT(*) 
 DESC LIMIT 5
 
---- query para saber las etapas que han ganado cada corredor---
+--- query para saber las etapas que ha ganado cada corredor---
 
 SELECT rider_name, stage 
 FROM startlist 
