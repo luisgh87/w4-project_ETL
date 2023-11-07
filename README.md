@@ -48,7 +48,7 @@ El repositorio se va a organizar en diferentes carpetas que contienen los siguie
   - <img width="238" alt="query 3" src="https://github.com/luisgh87/w4-project_ETL/assets/116723919/b3539b23-8b1e-4d0d-9424-96539bdc3c99">
 
 
-## Useful Resources
+## Librerías
 
 * [Python Functional Programming How To Documentation](https://docs.python.org/3.7/howto/functional.html)
 * [Python List Comprehensions Documentation](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
