@@ -51,6 +51,6 @@ El repositorio se va a organizar en diferentes carpetas que contienen los siguie
 ## Librerías
 
 * [Python Functional Programming How To Documentation](https://docs.python.org/3.7/howto/functional.html)
-* [Database from Procyclingstats documentation]([https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions](https://procyclingstats.readthedocs.io/en/latest/))
+* [Database from Procyclingstats documentation]([https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions](https://procyclingstats.readthedocs.io/en/latest/)
 * [Python Errors and Exceptions Documentation](https://docs.python.org/3/tutorial/errors.html)
   
